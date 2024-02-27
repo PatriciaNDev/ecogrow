@@ -1,0 +1,53 @@
+:root {
+    --green-color: #618C03;
+    --light-green-color: #91A672;
+    --orange-color: #F2522E;
+    --light-orange-color: #FF9178;
+    --yellow-color: #F29F05;
+    
+    --main-font: 'Baloom Thambi 2', sans-serif;
+    --secondary-font: 'Roboto', sans-serif;
+  }
+
+body {
+    color: #000000;
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 1rem;
+  }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--green-color);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    font-size: 0.875rem;
+    color: var(--orange-color);
+}
+
+.navbar-item {
+    border: 1em solid var(--green-color);
+    border-radius: 10px;
+    border-width: 0.15em;
+    padding: 0.3em;
+}
+
+.navbar-link {
+    color: var(--orange-color);
+}
+
+.divider {
+    border-color: var(--yellow-color);
+}
