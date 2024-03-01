@@ -51,3 +51,20 @@ body {
 .divider {
     border-color: var(--yellow-color);
 }
+
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    gap: 15px;
+}
+
+.section1_title {
+    color: var(--orange-color);
+    font-family: var(--secondary-font);
+    font-size: 1.3rem;
+}
+
+.section1_img {
+    max-width: 45%;
+}
