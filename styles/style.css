@@ -55,6 +55,7 @@ body {
 .eco-grow {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 2em 1em;
     gap: 15px;
 }
@@ -77,12 +78,14 @@ body {
     font-family: var(--secondary-font);
     font-size: 1rem;
     font-weight: bold;
+    text-align: center;
     color: var(--green-color);
 }
 
 .eco-grow-details_container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 4em 0;
     gap: 5px;
 }
@@ -95,6 +98,7 @@ body {
     border: 2px solid var(--yellow-color);
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 0.3em;
     max-width: 40%;
     border-radius: 10px;
@@ -103,6 +107,7 @@ body {
 .eco-grow-details_text {
     font-family: var(--secondary-font);
     font-size: 0.9rem;
+    text-align: center;
     color: var(--orange-color);
 }
 
@@ -134,6 +139,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     padding: 2em 0.3em;
     max-height: 33%;
@@ -196,8 +202,164 @@ div.text-color p:nth-child(3) {
 }
 
 .eco-grow-footer_text {
-    color: var(--orange-color);
+    color: #ffffff;
     text-align: right;
     font-family: var(--secondary-font);
     font-size: 0.8em;
+}
+
+@media screen and (min-width: 768px) {
+    .header {
+        padding: 3em 7em;
+    }
+    
+    .header_logo{
+        font-size: 2rem;
+    }
+    
+    .header-navbar {
+        gap: 3em;
+        font-size: 1.2rem;
+    }
+    
+    .header-navbar_item {
+        padding: 0.5em;
+    }
+
+    .eco-grow {
+        padding: 3em 7em;
+        gap: 15px;
+    }
+    
+    .eco-grow_title {
+        font-size: 2.5rem;
+        max-width: 35%;
+    }
+
+    .eco-grow-details {
+        padding: 3em 7em;
+    }
+    
+    .eco-grow-details_title {
+        font-size: 2rem;
+    }
+    
+    .eco-grow-details_container {
+        padding: 6em 0;
+    }
+    
+    .eco-grow-details_image {
+        max-width: 50%;
+    }
+    
+    .eco-grow-details_text {
+        font-size: 1.5rem;
+    }
+    
+    .eco-grow-details_feature {
+        font-size: 1.5rem;
+    }
+
+    .eco-grow-section {
+        padding: 3em 7em;
+    }
+    
+    .eco-grow-section_title {
+        font-size: 1.5rem;
+    }
+    
+    .eco-grow-section_info {
+        font-size: 1.5rem;
+    }
+    
+    .eco-grow-section_subinfo {
+        font-size: 1rem;
+    }
+
+    .eco-grow-footer {
+        padding: 1.5em;
+    }
+    
+    .eco-grow-footer_text {
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .header {
+        padding: 1.5em 15em;
+    }
+    
+    .header_logo{
+        font-size: 2.5rem;
+    }
+    
+    .header-navbar {
+        font-size: 1.3rem;
+    }
+
+    .eco-grow {
+        padding: 1.5em 15em;
+    }
+    
+    .eco-grow_title {
+        font-size: 2.5rem;
+        max-width: 35%;
+    }
+
+    .eco-grow_image {
+        max-width: 40%;
+    }
+
+    .eco-grow-details {
+        padding: 1.5em 15em;
+    }
+    
+    .eco-grow-details_title {
+        font-size: 2.5rem;
+    }
+    
+    .eco-grow-details_container {
+        padding: 7em 0;
+    }
+    
+    .eco-grow-details_image {
+        max-width: 40%;
+    }
+    
+    .eco-grow-details_text {
+        font-size: 1.7rem;
+    }
+    
+    .eco-grow-details_feature {
+        font-size: 1.7rem;
+    }
+
+    .eco-grow-details_icon {
+        max-width: 5%;
+    }
+
+    .eco-grow-section {
+        padding: 2em 15em;
+    }
+    
+    .eco-grow-section_title {
+        font-size: 1.7rem;
+    }
+    
+    .eco-grow-section_info {
+        font-size: 1.7rem;
+    }
+    
+    .eco-grow-section_subinfo {
+        font-size: 1.2rem;
+    }
+
+    .eco-grow-footer {
+        padding: 1.7em;
+    }
+    
+    .eco-grow-footer_text {
+        font-size: 1.2em;
+    }
 }
