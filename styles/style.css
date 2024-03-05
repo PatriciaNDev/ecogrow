@@ -197,15 +197,26 @@ div.text-color p:nth-child(3) {
 .eco-grow-footer {
     background-color: var(--yellow-color);
     padding: 1em;
+    margin-top: 4em;
+    width: 100%;
     display: flex;
-    justify-content:center;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.eco-grow-footer_icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
 }
 
 .eco-grow-footer_text {
     color: #ffffff;
-    text-align: right;
     font-family: var(--secondary-font);
-    font-size: 0.8em;
+    font-size: 0.7em;
+    text-align: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -277,11 +288,15 @@ div.text-color p:nth-child(3) {
     }
 
     .eco-grow-footer {
-        padding: 1.5em;
+        padding: 1em 2em;
+    }
+    
+    .eco-grow-footer_icons {
+        gap: 20px;
     }
     
     .eco-grow-footer_text {
-        font-size: 1em;
+        font-size: 0.8em;
     }
 }
 
@@ -356,10 +371,15 @@ div.text-color p:nth-child(3) {
     }
 
     .eco-grow-footer {
-        padding: 1.7em;
+        padding: 1em 3em;
+        margin-top: 5em;
+    }
+    
+    .eco-grow-footer_icons {
+        gap: 30px;
     }
     
     .eco-grow-footer_text {
-        font-size: 1.2em;
+        font-size: 0.9em;
     }
 }
