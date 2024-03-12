@@ -1,6 +1,6 @@
 @import url(/css/style.css);
 
-.product-section {
+.introduction {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,38 +8,39 @@
     gap: 2em;
 }
 
-.product-section_text {
+.introduction_text {
     font-family: var(--secondary-font);
     font-size: 1.1rem;
-    text-align: center;
     color: var(--orange-color);
 }
 
-.product-section_info {
+.introduction_info {
     font-size: 1.3rem;
+    text-align: center;
 }
 
 .emphasis {
     color: var(--green-color);
 }
 
-.product-section_subinfo {
+.introduction_subinfo {
     font-size: 1rem;
     color: var(--light-orange-color);
+    text-align: center;
 }
 
-.kits-title {
+.section-title {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1em;
 }
 
-.icon {
+.section-title_icon {
     max-width: 8%;
 }
 
-.title {
+.section-title_text {
     font-family: var(--secondary-font);
     font-size: 1.3rem;
     font-weight: bold;
@@ -55,6 +56,7 @@
     border: 0.125em solid var(--green-color);
     border-radius: 0.625em;
     max-width: 50%;
+    cursor: pointer;
 }
 
 .button-color {
@@ -63,27 +65,27 @@
 }
 
 @media screen and (min-width: 768px) {
-    .product-section {
+    .introduction {
         gap: 2.5em;
     }
     
-    .product-section_text {
+    .introduction_text {
         font-size: 1.3rem;
     }
     
-    .product-section_info {
+    .introduction_info {
         font-size: 1.5rem;
     }
 
-    .product-section_subinfo {
+    .introduction_subinfo {
         font-size: 1.2rem;
     }
 
-    .icon {
+    .section-title_icon {
         max-width: 6%;
     }
     
-    .title {
+    .section-title_text {
         font-size: 1.5rem;
     }
 
@@ -94,28 +96,29 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .product-section {
+    
+    .introduction {
         gap: 2.5em;
         max-width: 65%;
     }
 
-    .product-section_text {
+    .introduction_text {
         font-size: 1.4rem;
     }
     
-    .product-section_info {
+    .introduction_info {
         font-size: 1.6rem;
     }
 
-    .product-section_subinfo {
+    .introduction_subinfo {
         font-size: 1.2rem;
     }
 
-    .icon {
+    .section-title_icon {
         max-width: 4%;
     }
     
-    .title {
+    .section-title_text {
         font-size: 1.6rem;
     }
 

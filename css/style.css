@@ -7,6 +7,7 @@
     --orange-color: #F2522E;
     --light-orange-color: #FF9178;
     --yellow-color: #F29F05;
+    --background-color: #D9D9D9
   }
 
 body {
@@ -60,24 +61,24 @@ body {
     box-sizing: border-box;
 }
 
-.eco-grow {
+.banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 1em;
 }
 
-.eco-grow_title {
+.banner_title {
     color: var(--orange-color);
     font-family: var(--secondary-font);
     font-size: 1.1rem;
 }
 
-.eco-grow_image {
+.banner_image {
     max-width: 45%;
 }
 
-.eco-grow-details_title {
+.features_title {
     font-family: var(--secondary-font);
     font-size: 1.1rem;
     font-weight: bold;
@@ -85,7 +86,7 @@ body {
     color: var(--green-color);
 }
 
-.eco-grow-details_container {
+.features_container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -93,11 +94,11 @@ body {
     gap: 0.4em;
 }
 
-.eco-grow-details_image {
+.features_image {
     max-width: 50%;
 }
 
-.eco-grow-details_content {
+.features_content {
     border: 0.125em solid var(--yellow-color);
     border-radius: 0,625em;
     display: flex;
@@ -107,36 +108,36 @@ body {
     max-width: 40%;
 }
 
-.eco-grow-details_text {
+.features_text {
     font-family: var(--secondary-font);
     font-size: 0.9rem;
     text-align: center;
     color: var(--orange-color);
 }
 
-.eco-grow-details_features {
+.features-qualities {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.eco-grow-details_feature {
+.features-qualities_quality {
     font-family: var(--secondary-font);
     font-size: 0.9rem;
     color: var(--green-color);
 }
 
-.eco-grow-details_icon {
+.features-qualities_icon {
     max-width: 5%;
 }
 
-.eco-grow-section {
+.cards {
     display: flex;
     flex-direction: column;
     gap: 3.125em;
 }
 
-.eco-grow-section_content {
+.cards-card {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -146,39 +147,39 @@ body {
     gap: 0.625em;
 }
 
-.eco-grow-section_text {
+.cards-card-text {
     display: flex;
     flex-direction: column;
     max-width: 65%;
     gap: 0.625em;
 }
 
-.eco-grow-section_title {
+.cards-card-text_title {
     font-family: var(--secondary-font);
     font-weight: bold;
     font-size: 0.9rem;
     color: var(--orange-color);
 }
 
-.eco-grow-section_info {
+.cards-card-text_info {
     font-family: var(--secondary-font);
     font-size: 0.8rem;
     color: var(--green-color);
 }
 
-.eco-grow-section_subinfo {
+.cards-card-text_subinfo {
     font-family: var(--secondary-font);
     font-size: 0.7rem;
     color: var(--light-green-color);
 }
 
-.eco-grow-section_img {
+.cards-card-image {
     max-width: 40%;
     display: flex;
     align-items: center;
 }
 
-.eco-grow-section_image {
+.cards-card-image_img {
     max-width: 100%;
     border-radius: 0.625em;
 }
@@ -195,9 +196,9 @@ div.text-color p:nth-child(3) {
     color: var(--light-orange-color);
 }
 
-.eco-grow-footer {
+.footer {
     background-color: var(--yellow-color);
-    padding: 0.5em;
+    padding: 0.3em;
     margin-top: 4em;
     width: 100%;
     display: flex;
@@ -206,14 +207,14 @@ div.text-color p:nth-child(3) {
     box-sizing: border-box;
 }
 
-.eco-grow-footer_icons {
+.footer_icons {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 1em;
 }
 
-.eco-grow-footer_text {
+.footer_text {
     color: #ffffff;
     font-family: var(--secondary-font);
     font-size: 0.7em;
@@ -232,74 +233,78 @@ div.text-color p:nth-child(3) {
     .header-navbar {
         font-size: 1rem;
     }
+
+    .divider {
+        margin: 2.5em 0;    
+    }
     
-    .eco-grow_title {
+    .banner_title {
         font-size: 1.3rem;
     }
     
-    .eco-grow-details_title {
+    .features_title {
         font-size: 1.3rem;
     }
     
-    .eco-grow-details_container {
+    .features_container {
         margin: 3em 0;
     }
     
-    .eco-grow-details_image {
+    .features_image {
         max-width: 45%;
     }
     
-    .eco-grow-details_content {
+    .features_content {
         padding: 0.5em;
         max-width: 45%;
     }
     
-    .eco-grow-details_text {
+    .features_text {
         font-size: 1rem;
     }
     
-    .eco-grow-details_feature {
+    .features-qualities_quality {
         font-size: 1rem;
     }
     
-    .eco-grow-section {
+    .cards{
         gap: 2.5em;
     }
     
-    .eco-grow-section_content {
+    .cards-card {
         gap: 1em;
     }
 
-    .eco-grow-section_img {
+    .cards-card-image {
         max-width: 30%;
     }
 
-    .eco-grow-section_text {
+    .cards-card-text {
         max-width: 65%;
         gap: 1em;
     }
     
-    .eco-grow-section_title {
+    .cards-card-text_title {
         font-size: 1.1rem;
     }
     
-    .eco-grow-section_info {
+    .cards-card-text_info {
         font-size: 1.1rem;
     }
     
-    .eco-grow-section_subinfo {
+    .cards-card-text_subinfo {
         font-size: 0.9rem;
     }
     
     .eco-grow-footer {
-        padding: 1em 2em;
+        padding: 0.5em 2em;
     }
     
-    .eco-grow-footer_icons {
+    .footer_icons {
         gap: 1.25em;
     }
     
-    .eco-grow-footer_text {
+    .footer_text {
         font-size: 0.8em;
     }
 }
@@ -317,90 +322,90 @@ div.text-color p:nth-child(3) {
         margin: 3em 0;    
     }
 
-    .eco-grow {
+    .banner {
         justify-content: center;
         gap: 4.4em;
     }
 
-    .eco-grow_title {
+    .banner_title {
         font-size: 1.5rem;
         max-width: 35%;
     }
 
-    .eco-grow_image {
+    .banner_image {
         max-width: 35%;
     }
     
-    .eco-grow-details_title {
+    .features_title {
         font-size: 1.5rem;
     }
-    .eco-grow-details_container {
+    .features_container {
         justify-content: center;
         gap: 4.4em;
     }
     
-    .eco-grow-details_image {
+    .features_image {
         max-width: 35%;
     }
     
-    .eco-grow-details_content {
+    .features_content {
         padding: 0.8em;
         max-width: 35%;
     }
     
-    .eco-grow-details_text {
+    .features_text {
         font-size: 1.2rem;
     }
 
-    .eco-grow-details_features {
+    .features-qualities {
         justify-content: center;
         gap: 5.625em;
     }
 
-    .eco-grow-details_feature {
+    .features-qualities_quality {
         font-size: 1.2rem;
     }
     
-    .eco-grow-section {
+    .cards{
         gap: 3.125em;
     }
 
-    .eco-grow-section_content {
+    .cards-card {
         justify-content: center;
         gap: 1.5em;
     }
     
-    .eco-grow-section_text {
+    .cards-card-text {
         max-width: 70%;
         gap: 1em;
     }
     
-    .eco-grow-section_title {
+    .cards-card-text_title {
         font-size: 1.2rem;
     }
     
-    .eco-grow-section_info {
+    .cards-card-text_info {
         font-size: 1.2rem;
     }
     
-    .eco-grow-section_subinfo {
+    .cards-card-text_subinfo {
         font-size: 1rem;
     }
     
-    .eco-grow-section_img {
+    .cards-card-image {
         max-width: 25%;
     }
 
-    .eco-grow-footer {
-        padding: 1em 3em;
+    .footer {
+        padding: 0.7em 3em;
         margin-top: 5em;
     }
     
-    .eco-grow-footer_icons {
+    .footer_icons {
         gap: 1.875em;
     }
     
-    .eco-grow-footer_text {
+    .footer_text {
         font-size: 0.9em;
     }
 }
