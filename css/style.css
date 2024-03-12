@@ -7,9 +7,6 @@
     --orange-color: #F2522E;
     --light-orange-color: #FF9178;
     --yellow-color: #F29F05;
-    
-    --main-font: 'Baloom Thambi 2', sans-serif;
-    --secondary-font: 'Roboto', sans-serif;
   }
 
 body {
@@ -41,14 +38,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 5px;
+    gap: 0.4em;
     font-size: 0.875rem;
     color: var(--orange-color);
 }
 
 .header-navbar_item {
-    border: 2px solid var(--green-color);
-    border-radius: 10px;
+    border: 0.125em solid var(--green-color);
+    border-radius: 0.625em;
     padding: 0.3em;
 }
 
@@ -67,7 +64,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 15px;
+    gap: 1em;
 }
 
 .eco-grow_title {
@@ -93,7 +90,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 2em 0;
-    gap: 5px;
+    gap: 0.4em;
 }
 
 .eco-grow-details_image {
@@ -101,8 +98,8 @@ body {
 }
 
 .eco-grow-details_content {
-    border: 2px solid var(--yellow-color);
-    border-radius: 10px;
+    border: 0.125em solid var(--yellow-color);
+    border-radius: 0,625em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -136,7 +133,7 @@ body {
 .eco-grow-section {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 3.125em;
 }
 
 .eco-grow-section_content {
@@ -145,14 +142,15 @@ body {
     justify-content: space-between;
     align-items: center;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    padding: 0.3em;
+    padding: 1em 0.3em;
+    gap: 0.625em;
 }
 
 .eco-grow-section_text {
     display: flex;
     flex-direction: column;
     max-width: 65%;
-    gap: 10px;
+    gap: 0.625em;
 }
 
 .eco-grow-section_title {
@@ -164,7 +162,7 @@ body {
 
 .eco-grow-section_info {
     font-family: var(--secondary-font);
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     color: var(--green-color);
 }
 
@@ -175,14 +173,14 @@ body {
 }
 
 .eco-grow-section_img {
-    max-width: 30%;
+    max-width: 40%;
     display: flex;
     align-items: center;
 }
 
 .eco-grow-section_image {
     max-width: 100%;
-    border-radius: 10px;
+    border-radius: 0.625em;
 }
 
 div.text-color p:first-child {
@@ -199,7 +197,7 @@ div.text-color p:nth-child(3) {
 
 .eco-grow-footer {
     background-color: var(--yellow-color);
-    padding: 1em;
+    padding: 0.5em;
     margin-top: 4em;
     width: 100%;
     display: flex;
@@ -212,7 +210,7 @@ div.text-color p:nth-child(3) {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 15px;
+    gap: 1em;
 }
 
 .eco-grow-footer_text {
@@ -265,12 +263,20 @@ div.text-color p:nth-child(3) {
     }
     
     .eco-grow-section {
-        gap: 40px;
+        gap: 2.5em;
     }
     
+    .eco-grow-section_content {
+        gap: 1em;
+    }
+
+    .eco-grow-section_img {
+        max-width: 30%;
+    }
+
     .eco-grow-section_text {
         max-width: 65%;
-        gap: 15px;
+        gap: 1em;
     }
     
     .eco-grow-section_title {
@@ -290,7 +296,7 @@ div.text-color p:nth-child(3) {
     }
     
     .eco-grow-footer_icons {
-        gap: 20px;
+        gap: 1.25em;
     }
     
     .eco-grow-footer_text {
@@ -313,7 +319,7 @@ div.text-color p:nth-child(3) {
 
     .eco-grow {
         justify-content: center;
-        gap: 70px;
+        gap: 4.4em;
     }
 
     .eco-grow_title {
@@ -330,7 +336,7 @@ div.text-color p:nth-child(3) {
     }
     .eco-grow-details_container {
         justify-content: center;
-        gap: 70px;
+        gap: 4.4em;
     }
     
     .eco-grow-details_image {
@@ -348,7 +354,7 @@ div.text-color p:nth-child(3) {
 
     .eco-grow-details_features {
         justify-content: center;
-        gap: 90px;
+        gap: 5.625em;
     }
 
     .eco-grow-details_feature {
@@ -356,12 +362,17 @@ div.text-color p:nth-child(3) {
     }
     
     .eco-grow-section {
-        gap: 50px;
+        gap: 3.125em;
+    }
+
+    .eco-grow-section_content {
+        justify-content: center;
+        gap: 1.5em;
     }
     
     .eco-grow-section_text {
         max-width: 70%;
-        gap: 15px;
+        gap: 1em;
     }
     
     .eco-grow-section_title {
@@ -377,7 +388,7 @@ div.text-color p:nth-child(3) {
     }
     
     .eco-grow-section_img {
-        max-width: 20%;
+        max-width: 25%;
     }
 
     .eco-grow-footer {
@@ -386,7 +397,7 @@ div.text-color p:nth-child(3) {
     }
     
     .eco-grow-footer_icons {
-        gap: 30px;
+        gap: 1.875em;
     }
     
     .eco-grow-footer_text {

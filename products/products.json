@@ -1,0 +1,32 @@
+[
+    {
+        "title":"Kit Iniciante de Ervas Aromáticas:",
+        "info":"Comece sua jornada na jardinagem com nosso kit iniciante, perfeito para cultivar ervas aromáticas frescas em sua cozinha.",
+        "img-path":"/assets/images/aromatic-herbs-kit.jpg",
+        "img-alt":"Kit iniciante de ervas aromáticas EcoGrow"
+    },
+    {
+        "title":"Kit Básico de Horta Urbana:",
+        "info":"Cultive uma seleção de vegetais frescos, como alface, rúcula, tomate e pimentão, em sua própria casa com o Kit Básico de Horta Urbana.",
+        "img-path":"/assets/images/urban-garden-kit.jpg",
+        "img-alt":"Kit Básico de Horta Urbana EcoGrow"
+    },
+    {
+        "title":"Kit Completo de Jardinagem:",
+        "info":"Leve sua jardinagem para o próximo nível com o Kit Completo de Jardinagem da EcoGrow.",
+        "img-path":"/assets/images/gardening-kit.jpg",
+        "img-alt":"Kit completo de jardinagem EcoGrow"
+    },
+    {
+        "title":"Kit de Flores Comestíveis:",
+        "info":"Adicione um toque de cor e sabor às suas refeições com o Kit de Flores Comestíveis da EcoGrow.",
+        "img-path":"/assets/images/edible-flowers-kit.jpg",
+        "img-alt":"kit de flores comestíveis EcoGrow"
+    },
+    {
+        "title":"Kit de Microgreens:",
+        "info":"Descubra o mundo dos microgreens com o Kit de Microgreens da EcoGrow.",
+        "img-path":"/assets/images/microgreens-kit.jpg",
+        "img-alt":"Kit de microgreens EcoGrow"
+    }
+]
