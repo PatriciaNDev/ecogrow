@@ -1,29 +1,29 @@
 @import url(/css/style.css);
 @import url(/css/products.css);
 
+#introduction-contact_text {
+    font-size: 1rem;
+    text-align: left;
+    color: var(--gray-color);
+}
+
 .contact {
     display: flex;
     flex-direction: column;
-    gap: 5em;
+    gap: 2em;
+    padding: 8% 0;
 }
 
 .contact-content {
     display: flex;
     flex-direction: column;
-    gap: 1em;
     align-items: center;
+    font-family: var(--secondary-font);
 }
 
-.contact-content_text {
-    font-family: var(--secondary-font);
-    font-size: 1.1rem;
-    color: var(--orange-color);
-}
-
-.contact-content_info {
-    font-family: var(--secondary-font);
+.contact-content p {
     font-size: 1rem;
-    color: var(--light-green-color);
+    color: var(--gray-color);
 }
 
 .contact-form {
@@ -31,84 +31,71 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.8em;
-    max-width: 60%;
+    gap: 0.5rem;
+    width: 90%;
+    max-width: 450px;
 }
 
-.contact-form_input {
-    border-radius: 0.625em;
-    padding: 0.8em;
-    background-color: #D9D9D9;
-    border: 0.125em solid var(--green-color);
+.contact-form input {
+    border: 2px solid var(--green-color);
+    border-radius: 10px;
+    padding: 0.5rem;
+    background-color: var(--background-color);
     width: 100%;
 }
 
-.contact-form_input::placeholder {
+.contact-form input::placeholder {
     font-family: var(--secondary-font);
-    font-size: 1em;
+    font-size: 1rem;
     color: var(--light-green-color);
 }
 
-.contact-form_label {
+.contact-form label {
     font-family: var(--secondary-font);
-    font-size: 1em;
+    font-size: 1rem;
     color: var(--light-orange-color);
     align-self: first baseline;
 }
 
-.contact-form_area {
-    border-radius: 0.625em;
-    padding: 0.8em;
-    background-color: #D9D9D9;
-    border: 0.125em solid var(--orange-color);
+.contact-form textarea {
+    border: 2px solid var(--orange-color);
+    border-radius: 10px;
+    padding: 0.5rem;
+    background-color: var(--background-color);
     width: 100%;
 }
 
-.contact-form_input:focus, .contact-form_area:focus {
+.contact-form input:focus, .contact-form textarea:focus {
     outline: none;
     border-color: var(--yellow-color);
 }
 
-@media screen and (min-width: 768px) {
-    .contact-content_text {
-        font-size: 1.3rem;
-    }
-    
-    .contact-content_info {
+@media screen and (min-width: 640px) {
+    #introduction-contact_text {
         font-size: 1.2rem;
     }
+    
+    .contact {
+        gap: 3em;
+        padding: 5% 0;
+    }
 
-    .contact-form {
-        max-width: 50%;
-    }
-    
-    .contact-form_input::placeholder {
-        font-size: 1.2em;
-    }
-    
-    .contact-form_label {
-        font-size: 1.2em;
-    }
+    .contact-content p {
+        font-size: 1.2rem;
+    }   
 }
 
 @media screen and (min-width: 1024px) {
-    .contact-content_text {
-        font-size: 1.3rem;
+    #introduction-contact_text {
+        font-size: 1.4rem;
     }
     
-    .contact-content_info {
-        font-size: 1.2rem;
+    .contact {
+        gap: 4em;
+        padding: 3% 0;
     }
-    
-    .contact-form {
-        max-width: 40%;
-    }
-    
-    .contact-form_input::placeholder {
-        font-size: 1.3em;
-    }
-    
-    .contact-form_label {
-        font-size: 1.3em;
+
+    .contact-content p {
+        font-size: 1.4rem;
     }
 }

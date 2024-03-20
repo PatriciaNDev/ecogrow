@@ -8,89 +8,89 @@
 </head>
 
 <body>
-    <header class="header responsive-container">
-        <a href="index.html" class="header_logo">EcoGrow</a>
-        <nav>
-            <ul class="header-navbar">
-                <li class="header-navbar_item"><a href="/products/products.html" class="header-navbar_link">Produtos</a></li>
-                <li class="header-navbar_item"><a href="/contact/contact.html" class="header-navbar_link">Contato</a></li>
-            </ul>
-        </nav>
+    <header class="header">
+        <div class="header-burger-menu responsive_container" id="header_burger-menu">
+            <h1><a href="/index.html" class="logo">EcoGrow</a></h1>
+            <div class="header-burger-menu_wrapper">
+                <img src="/assets/icons/menu.svg" alt="Menu" id="menu">
+                <nav class="header-burger-menu_nav">
+                    <ul>
+                        <li><hr class="divider"></li>
+                        <li><a href="/products/products.html">Produtos</a></li>
+                        <li><hr class="divider"></li>
+                        <li><a href="/contact/contact.html">Contato</a></li>
+                        <li><hr class="divider"></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="main-header responsive_container" id="main_header">
+            <h1><a href="/index.html" class="logo">EcoGrow</a></h1>
+            <nav class="main-header_nav">
+                <ul>
+                    <li><a href="/index.html" id="page">Home</a></li>
+                    <li><a href="/products/products.html">Produtos</a></li>
+                    <li><a href="/contact/contact.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <hr class="divider">
 
     <main>
-        <section class="banner responsive-container">
-            <h2 class="banner_title">EcoGrow Kit: Cultive ervas e vegetais frescos em casa.</h2>
-            <img class="banner_image" src="/assets/images/cover.jpg" alt="Kit de horta urbana">
+        <section class="banner responsive_container">
+            <div class="banner_text">
+                <h2>EcoGrow Kit</h2>
+                <p>Cultive ervas e vegetais frescos em casa.</p>
+                <p>Transforme sua cozinha em uma horta urbana e desfrute de alimentos saudáveis cultivados por você mesmo, sem pesticidas ou produtos químicos.</p>
+            </div>
+            <img src="/assets/images/ecogrow-kit.png" alt="Kit de horta urbana">
         </section>
 
         <hr class="divider">
         
-        <section class="responsive-container">
-            <h3 class="features_title">O EcoGrow é mais do que apenas um kit de horta urbana!</h3>
-            <div class="features_container">
-                <img class="features_image" src="/assets/images/kit-illustration.jpg"
+        <section class="features responsive_container">
+            <header>
+                <h3 class="section_title">O EcoGrow é mais do que apenas um kit de horta urbana!</h3>
+            </header>
+            <div class="features-container">
+                <img src="/assets/images/ecogrow-kit1.png"
                     alt="Kit de horta urbana">
-                <div class="features_content">
-                    <p class="features_text">Oferece uma experiência única de jardinagem para iniciantes e entusiastas.</p>
-                </div>
+                <p id="features-container_text1">Oferece uma experiência única de jardinagem para iniciantes e entusiastas.</p>
+                <p id="features-container_text2"><span class="letter_emphasis">P</span>roporciona uma experiência única de jardinagem tanto para aqueles que estão dando os primeiros passos nesse mundo verde quanto para os entusiastas mais experientes.</p>
             </div>
-            <div class="features-qualities">
-                <p class="features-qualities_quality">Praticidade</p>
-                <img class="features-qualities_icon" src="/assets/icons/leaf-icon.png" alt="Ícone de folha">
-                <p class="features-qualities_quality">Sustentabilidade</p>
-                <img class="features-qualities_icon" src="/assets/icons/leaf-icon.png" alt="Ícone de folha">
-                <p class="features-qualities_quality">Diversidade</p>
-            </div>
+            <footer class="features_footer">
+                <p>Praticidade</p>
+                <img src="/assets/icons/leaf-icon.png" alt="Ícone de folha">
+                <p>Sustentabilidade</p>
+                <img src="/assets/icons/leaf-icon.png" alt="Ícone de folha">
+                <p>Diversidade</p>
+            </footer>
         </section>
 
         <hr class="divider">
 
-        <section class="cards responsive-container">
-            <div class="cards-card">
-                <div class="cards-card-text">
-                    <p class="cards-card-text_title"></p>
-                    <p class="cards-card-text_info"></p>
-                    <p class="cards-card-text_subinfo"></p>
-                </div>
-                <div class="cards-card-image">
-                    <img class="cards-card-image_img">
-                </div>
-            </div>
-            <div class="cards-card text-color">
-                <div class="cards-card-image">
-                    <img class="cards-card-image_img">
-                </div>
-                <div class="cards-card-text">
-                    <p class="cards-card-text_title"></p>
-                    <p class="cards-card-text_info"></p>
-                    <p class="cards-card-text_subinfo"></p>
-                </div>
-            </div>
-            <div class="cards-card">
-                <div class="cards-card-text">
-                    <p class="cards-card-text_title"></p>
-                    <p class="cards-card-text_info"></p>
-                    <p class="cards-card-text_subinfo"></p>
-                </div>
-                <div class="cards-card-image">
-                    <img class="cards-card-image_img">
-                </div>
+        <section class="cards responsive_container">
+            <header>
+                <h3 class="section_title">Por que escolher a EcoGrow?</h3>
+            </header>
+            <div class="cards-container">
+                <!-- Here it will be dynamically populated by JavaScript -->
             </div>
         </section>
     </main>
 
-    <footer class="footer">
-        <div class="footer_icons">
+    <footer class="ecogrow-footer">
+        <div class="ecogrow-footer_icons">
             <a href="#"><img src="/assets/icons/linkedin.png" alt="Ícone do Linkedin"></a>
             <a href="#"><img src="/assets/icons/github.png" alt="Ícone do GitHub"></a>
         </div>
-        <p class="footer_text">Desenvolvido por Patricia Nascimento</p>
+        <p>Desenvolvido por Patricia Nascimento</p>
     </footer>
 
     <script src="/js/script.js"></script>
+    <script src="/js/header.js"></script>
 </body>
 
 </html>

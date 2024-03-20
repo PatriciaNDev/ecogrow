@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,95 +9,75 @@
 </head>
 
 <body>
-    <header class="header responsive-container">
-        <a href="/index.html" class="header_logo">EcoGrow</a>
-        <nav>
-            <ul class="header-navbar">
-                <li class="header-navbar_item"><a href="/index.html" class="header-navbar_link">Home</a></li>
-                <li class="header-navbar_item"><a href="/contact/contact.html" class="header-navbar_link">Contato</a></li>
-            </ul>
-        </nav>
+    <header class="header">
+        <div class="header-burger-menu responsive_container" id="header_burger-menu">
+            <h1><a href="/index.html" class="logo">EcoGrow</a></h1>
+            <div class="header-burger-menu_wrapper">
+                <img src="/assets/icons/menu.svg" alt="Menu" id="menu">
+                <nav class="header-burger-menu_nav">
+                    <ul>
+                        <li>
+                            <hr class="divider">
+                        </li>
+                        <li><a href="/index.html">Home</a></li>
+                        <li>
+                            <hr class="divider">
+                        </li>
+                        <li><a href="/contact/contact.html">Contato</a></li>
+                        <li>
+                            <hr class="divider">
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="main-header responsive_container" id="main_header">
+            <h1><a href="/index.html" class="logo">EcoGrow</a></h1>
+            <nav class="main-header_nav">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/products/products.html" id="page">Produtos</a></li>
+                    <li><a href="/contact/contact.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <hr class="divider">
 
     <main>
-        <section class="introduction responsive-container">
-            <p class="introduction_text">Aqui, você encontrará uma variedade de kits cuidadosamente elaborados para iniciar sua própria horta urbana em casa.</p>
-            <p class="introduction_info introduction_text">Desde <span class="emphasis">PEQUENOS</span> espaços até jardins mais <span class="emphasis">AMPLOS</span>.</p>
-            <p class="introduction_subinfo introduction_text">Nossos kits são projetados para atender a diversas necessidades e estilos de vida.</p>
+        <section class="introduction responsive_container">
+            <p>Aqui, você encontrará uma variedade de kits cuidadosamente elaborados para iniciar sua própria horta
+                urbana em casa.</p>
+            <p>Desde <span class="emphasis">PEQUENOS</span> espaços até jardins mais <span
+                    class="emphasis">AMPLOS</span>.</p>
+            <p>Nossos kits são projetados para atender a diversas necessidades e estilos de vida.</p>
         </section>
 
         <hr class="divider">
 
-        <section class="cards responsive-container">
-            <div class="section-title">
-                <img class="section-title_icon" src="/assets/icons/leaf-icon.png" alt="Ícone de folha">
-                <h3 class="section-title_text">Explore Nossos Kits</h3>
-                <img class="section-title_icon" src="/assets/icons/leaf-icon.png" alt="Ícone de folha">
-            </div>
-            <div class="cards-card text-color">
-                <div class="cards-card-image">
-                    <img class="cards-card-image_img">
-                </div>
-                <div class="cards-card-text">
-                    <p class="cards-card-text_title"></p>
-                    <p class="cards-card-text_info"></p>
-                    <button class="button">Saiba Mais</button>
-                </div>
-            </div>
-            <div class="cards-card">
-                <div class="cards-card-text">
-                    <p class="cards-card-text_title"></p>
-                    <p class="cards-card-text_info"></p>
-                    <button class="button button-color">Saiba Mais</button>
-                </div>
-                <div class="cards-card-image">
-                    <img class="cards-card-image_img">
-                </div>
-            </div>
-            <div class="cards-card text-color">
-                <div class="cards-card-image">
-                    <img class="cards-card-image_img">
-                </div>
-                <div class="cards-card-text">
-                    <p class="cards-card-text_title"></p>
-                    <p class="cards-card-text_info"></p>
-                    <button class="button">Saiba Mais</button>
-                </div>
-            </div>
-            <div class="cards-card">
-                <div class="cards-card-text">
-                    <p class="cards-card-text_title"></p>
-                    <p class="cards-card-text_info"></p>
-                    <button class="button button-color">Saiba Mais</button>
-                </div>
-                <div class="cards-card-image">
-                    <img class="cards-card-image_img">
-                </div>
-            </div>
-            <div class="cards-card text-color">
-                <div class="cards-card-image">
-                    <img class="cards-card-image_img">
-                </div>
-                <div class="cards-card-text">
-                    <p class="cards-card-text_title"></p>
-                    <p class="cards-card-text_info"></p>
-                    <button class="button">Saiba Mais</button>
-                </div>
+        <section class="cards responsive_container">
+            <header class="section_header">
+                <img src="/assets/icons/leaf-icon.png" alt="Ícone de folha">
+                <h3 class="section_title">Explore Nossos Kits</h3>
+                <img src="/assets/icons/leaf-icon.png" alt="Ícone de folha">
+            </header>
+            <div class="cards-container">
+                <!-- Here it will be dynamically populated by JavaScript -->
             </div>
         </section>
     </main>
 
-    <footer class="footer">
-        <div class="footer_icons">
+    <footer class="ecogrow-footer">
+        <div class="ecogrow-footer_icons">
             <a href="#"><img src="/assets/icons/linkedin.png" alt="Ícone do Linkedin"></a>
             <a href="#"><img src="/assets/icons/github.png" alt="Ícone do GitHub"></a>
         </div>
-        <p class="footer_text">Desenvolvido por Patricia Nascimento</p>
+        <p>Desenvolvido por Patricia Nascimento</p>
     </footer>
 
     <script src="/js/products.js"></script>
+    <script src="/js/header.js"></script>
 </body>
 
 </html>

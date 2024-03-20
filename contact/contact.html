@@ -7,55 +7,73 @@
     <title>EcoGrow</title>
 </head>
 <body>
-    <header class="header responsive-container">
-        <a href="/index.html" class="header_logo">EcoGrow</a>
-        <nav>
-            <ul class="header-navbar">
-                <li class="header-navbar_item"><a href="/index.html" class="header-navbar_link">Home</a></li>
-                <li class="header-navbar_item"><a href="/products/products.html" class="header-navbar_link">Produtos</a></li>
-            </ul>
-        </nav>
+    <header class="header">
+        <div class="header-burger-menu responsive_container" id="header_burger-menu">
+            <h1><a href="/index.html" class="logo">EcoGrow</a></h1>
+            <div class="header-burger-menu_wrapper">
+                <img src="/assets/icons/menu.svg" alt="Menu" id="menu">
+                <nav class="header-burger-menu_nav">
+                    <ul>
+                        <li><hr class="divider"></li>
+                        <li><a href="/products/products.html">Produtos</a></li>
+                        <li><hr class="divider"></li>
+                        <li><a href="/contact/contact.html">Contato</a></li>
+                        <li><hr class="divider"></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="main-header responsive_container" id="main_header">
+            <h1><a href="/index.html" class="logo">EcoGrow</a></h1>
+            <nav class="main-header_nav">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/products/products.html">Produtos</a></li>
+                    <li><a href="/contact/contact.html" id="page">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <hr class="divider">
 
     <main>
-        <section class="introduction responsive-container">
-            <p class="introduction_info introduction_text">Bem-vindo à nossa página de <span class="emphasis">contato</span>!</p>
-            <p class="introduction_text">Estamos entusiasmados em conectar-nos com você e responder a todas as suas perguntas relacionadas à <span class="emphasis">EcoGrow</span> e ao emocionante mundo da jardinagem urbana.</p>
+        <section class="introduction responsive_container">
+            <p>Bem-vindo à nossa página de <span class="emphasis">contato</span>!</p>
+            <p id="introduction-contact_text">Estamos entusiasmados em conectar-nos com você e responder a todas as suas perguntas relacionadas à <span class="emphasis">EcoGrow</span> e ao emocionante mundo da jardinagem urbana.</p>
         </section>
 
         <hr class="divider">
 
-        <section class="contact responsive-container">
-            <div class="section-title">
-                <img class="section-title_icon" src="/assets/icons/leaf-icon.png" alt="Ícone de folha">
-                <h3 class="section-title_text">Fale Conosco</h3>
-                <img class="section-title_icon" src="/assets/icons/leaf-icon.png" alt="Ícone de folha">
-            </div>
+        <section class="contact responsive_container">
+            <header class="section_header">
+                <img src="/assets/icons/leaf-icon.png" alt="Ícone de folha">
+                <h3 class="section_title">Fale Conosco</h3>
+                <img src="/assets/icons/leaf-icon.png" alt="Ícone de folha">
+            </header>
             <div class="contact-content">
-                <p class="contact-content_text">Preencha o formulário abaixo e envie-nos suas perguntas, sugestões ou comentários.</p>
-                <p class="contact-content_info">Nossa equipe dedicada estará pronta para responder o mais rápido possível.</p>
+                <p>Preencha o formulário abaixo e envie-nos suas perguntas, sugestões ou comentários.</p>
             </div>
             <div>
                 <form class="contact-form">
-                    <input class="contact-form_input" type="text" name="form-name" id="form-name" placeholder="Nome:">
-                    <input class="contact-form_input" type="text" name="form-email" id="form-email" placeholder="Email:">
-                    <input class="contact-form_input" type="text" name="form-subject" id="form-subject" placeholder="Assunto:">
-                    <label class="contact-form_label" for="form-message">Mensagem:</label>
-                    <textarea class="contact-form_area" rows="6" maxlength="500" id="form-message"></textarea>
-                    <button class="button button-color" type="submit">Enviar</button>
+                    <input type="text" name="form-name" id="form-name" placeholder="Nome:">
+                    <input type="email" name="form-email" id="form-email" placeholder="Email:">
+                    <label for="form-message">Mensagem:</label>
+                    <textarea rows="6" maxlength="500" id="form-message"></textarea>
+                    <button class="btn">Enviar</button>
                 </form>
             </div>
         </section>
     </main>
 
-    <footer class="footer">
-        <div class="footer_icons">
+    <footer class="ecogrow-footer">
+        <div class="ecogrow-footer_icons">
             <a href="#"><img src="/assets/icons/linkedin.png" alt="Ícone do Linkedin"></a>
             <a href="#"><img src="/assets/icons/github.png" alt="Ícone do GitHub"></a>
         </div>
-        <p class="footer_text">Desenvolvido por Patricia Nascimento</p>
+        <p>Desenvolvido por Patricia Nascimento</p>
     </footer>
+
+    <script src="/js/header.js"></script>
 </body>
 </html>

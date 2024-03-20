@@ -1,0 +1,72 @@
+[
+    {
+        "title":"Kit Iniciante de Ervas Aromáticas",
+        "info":"Cultive suas próprias ervas frescas em casa. Este kit é perfeito para iniciantes e entusiastas da jardinagem.",
+        "subinfo":"Com o nosso Kit Iniciante de Ervas Aromáticas, você tem tudo o que precisa para iniciar sua jornada de jardinagem de ervas aromáticas. Comece a cultivar suas próprias ervas frescas hoje mesmo!",
+        "characteristics":[
+            "Inclui uma variedade de ervas aromáticas, como manjericão, salsa, cebolinha, e muito mais.",
+            "Oferece todos os suprimentos necessários para começar, incluindo vasos, substrato de qualidade e instruções detalhadas.",
+            "Ideal para uso culinário ou medicinal, proporcionando frescor e sabor intensificado às suas refeições.",
+            "Facilita o cultivo em casa, garantindo uma experiência agradável e gratificante para todos os níveis de habilidade."
+        ],
+        "img-path":"/assets/images/learn-more-aromatic-herbs-kit.jpg",
+        "img-alt":"Kit iniciante de ervas aromáticas EcoGrow",
+        "closeBtnPath":"/assets/icons/fechar.svg"
+    },
+    {
+        "title":"Kit Básico de Horta Urbana",
+        "info":"Este kit é ideal para quem deseja começar a cultivar alimentos em ambientes urbanos, proporcionando uma experiência gratificante e sustentável.",
+        "subinfo":"Comece sua própria horta urbana hoje mesmo com o nosso kit Básico de Horta Urbana e desfrute de vegetais frescos e nutritivos cultivados por você mesmo!",
+        "characteristics":[
+            "Inclui uma seleção de vegetais populares, como alface, tomate, cenoura e pimentão.",
+            "Fornecido com todos os suprimentos essenciais, incluindo vasos, solo nutritivo e instruções detalhadas.",
+            "Perfeito para pequenos espaços, como varandas e terraços, permitindo que você cultive alimentos frescos em qualquer lugar.",
+            "Promove a alimentação saudável e sustentável, proporcionando acesso fácil a vegetais frescos e livres de produtos químicos."
+        ],
+        "img-path":"/assets/images/learn-more-urban-garden-kit.jpg",
+        "img-alt":"Kit Básico de Horta Urbana EcoGrow",
+        "closeBtnPath":"/assets/icons/fechar.svg"
+    },
+    {
+        "title":"Kit Completo de Jardinagem",
+        "info":"Este kit abrangente é perfeito para entusiastas da jardinagem que desejam criar e manter belos jardins e paisagens.",
+        "subinfo":"Nosso Kit Completo de Jardinagem lhe permite explorar sua paixão pela jardinagem e transformar seu ambiente ao ar livre com facilidade!",
+        "characteristics":[
+            "Inclui uma variedade de ferramentas essenciais para todas as suas necessidades de jardinagem.",
+            "Fornecido com uma seleção de sementes de flores, plantas ornamentais e vegetais, permitindo que você crie uma variedade de espaços.",
+            "Oferece instruções detalhadas e dicas de jardinagem para ajudá-lo a cultivar e manter suas plantas saudáveis durante todo o ano.",
+            "Ideal para jardineiros iniciantes e experientes, proporcionando tudo o que você precisa para criar belos jardins e paisagens em seu espaço ao ar livre."
+        ],
+        "img-path":"/assets/images/learn-more-gardening-kit.jpg",
+        "img-alt":"Kit completo de jardinagem EcoGrow",
+        "closeBtnPath":"/assets/icons/fechar.svg"
+    },
+    {
+        "title":"Kit de Flores Comestíveis",
+        "info":"Este kit exclusivo permite que você cultive uma variedade de flores deliciosas que podem ser usadas para decorar e dar sabor a uma variedade de pratos e sobremesas.",
+        "subinfo":"Com nosso Kit de Flores Comestíveis, cultive suas próprias flores e transforme suas refeições em obras-primas culinárias!",
+        "characteristics":[
+            "Inclui uma seleção de sementes de flores comestíveis, como calêndula, amor-perfeito, e violeta, para adicionar uma explosão de cor e sabor à sua culinária.",
+            "Fornecido com instruções detalhadas de plantio e cuidados, para que você cultive suas próprias flores comestíveis de forma fácil e bem-sucedida.",
+            "Ideal para uso em saladas, sobremesas, bebidas e pratos principais, proporcionando uma experiência culinária criativa para você e seus convidados.",
+            "Oferece uma maneira divertida e deliciosa de explorar o mundo da culinária floral e criar pratos visuais e saborosos."
+        ],
+        "img-path":"/assets/images/learn-more-edible-flowers-kit.jpg",
+        "img-alt":"kit de flores comestíveis EcoGrow",
+        "closeBtnPath":"/assets/icons/fechar.svg"
+    },
+    {
+        "title":"Kit de Microgreens",
+        "info":"Este kit lhe permite cultivar sua própria fonte de nutrientes concentrados em casa. Estes pequenos brotos são verdadeiras potências nutricionais para impulsionar sua saúde e bem-estar.",
+        "subinfo":"Cultive seus próprios microgreens com nosso Kit de Microgreens e colha os benefícios para a saúde!",
+        "characteristics":[
+            "Inclui uma variedade de sementes de microgreens populares, como rúcula, mostarda, brotos de beterraba e muito mais.",
+            "Fornecido com bandejas de cultivo reutilizáveis e substrato de qualidade para garantir o sucesso do cultivo, mesmo para iniciantes na jardinagem.",
+            "Ideal para o cultivo em ambientes internos, permitindo que você desfrute de microgreens frescos e saudáveis durante todo o ano.",
+            "Oferece uma maneira prática e econômica de obter alimentos frescos e nutritivos em casa, enquanto reduz o desperdício."
+        ],
+        "img-path":"/assets/images/learn-more-microgreens-kit.jpg",
+        "img-alt":"Kit de microgreens EcoGrow",
+        "closeBtnPath":"/assets/icons/fechar.svg"
+    }
+]
