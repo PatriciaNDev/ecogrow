@@ -7,6 +7,7 @@
     color: var(--gray-color);
 }
 
+/*Contact section styles*/
 .contact {
     display: flex;
     flex-direction: column;
@@ -70,6 +71,7 @@
     border-color: var(--yellow-color);
 }
 
+/* Responsive styles for medium screens */
 @media screen and (min-width: 640px) {
     #introduction-contact_text {
         font-size: 1.2rem;
@@ -85,6 +87,7 @@
     }   
 }
 
+/* Responsive styles for medium screens */
 @media screen and (min-width: 1024px) {
     #introduction-contact_text {
         font-size: 1.4rem;

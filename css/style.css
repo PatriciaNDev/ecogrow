@@ -53,8 +53,7 @@ body {
     color: var(--green-color);
 }
 
-/*-------------------Burger menu styles-------------------*/
-
+/*Burger menu styles*/
 .header-burger-menu {
     display: flex;
     justify-content: space-between;
@@ -92,14 +91,12 @@ body {
     color: var(--green-color);
 }
 
-/*-------------------Main header styles-------------------*/
-
+/*Main header styles*/
 #main_header {
     display: none;
 }
 
-/*-------------------Banner section styles-------------------*/
-
+/*Banner section styles*/
 .banner {
     display: flex;
     flex-direction: column;
@@ -137,8 +134,7 @@ body {
     max-width: 45%;
 }
 
-/*-------------------Features section styles-------------------*/
-
+/*Features section styles*/
 .features {
     display: flex;
     flex-direction: column;
@@ -188,8 +184,7 @@ body {
     max-width: 5%;
 }
 
-/*-------------------Cards section styles-------------------*/
-
+/*Cards section styles*/
 .cards {
     display: flex;
     flex-direction: column;
@@ -239,8 +234,7 @@ body {
     color: var(--green-color);
 }
 
-/*-------------------Footer styles-------------------*/
-
+/*Footer styles*/
 .ecogrow-footer {
     background-color: var(--yellow-color);
     padding: 0.5rem 1rem;
@@ -265,6 +259,7 @@ body {
     text-align: center;
 }
 
+/* Responsive styles for medium screens */
 @media screen and (min-width: 640px) {
 
     .responsive_container {
@@ -347,6 +342,7 @@ body {
     }
 }
 
+/* Responsive styles for large screens */
 @media screen and (min-width: 1024px) {
     .responsive_container {
         max-width: 80%;

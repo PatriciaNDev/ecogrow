@@ -6,8 +6,7 @@
     font-weight: bold;
 }
 
-/*-------------------Section's header styles-------------------*/
-
+/*Section's header styles*/
 .section_header {
     display: flex;
     justify-content: center;
@@ -19,8 +18,7 @@
     max-width: 8%;
 }
 
-/*-------------------Button styles-------------------*/
-
+/*Button styles*/
 .btn {
     text-decoration: none;
     font-family: var(--secondary-font);
@@ -37,8 +35,7 @@
     background-color: var(--light-orange-color);
 }
 
-/*-------------------Introduction section styles-------------------*/
-
+/*Introduction section styles*/
 .introduction {
     display: flex;
     flex-direction: column;
@@ -62,8 +59,7 @@
     text-align: center;
 }
 
-/*-------------------Modal styles-------------------*/
-
+/*Modal styles*/
 .overlay {
     position: fixed;
     top: 0;
@@ -167,6 +163,7 @@
     max-width: 20px;
 }
 
+/* Responsive styles for medium screens */
 @media screen and (min-width: 640px) {
     .section_header img {
         max-width: 5%;
@@ -215,6 +212,7 @@
     }
 }
 
+/* Responsive styles for large screens */
 @media screen and (min-width: 1024px) {
     .introduction {
         padding: 3% 0;
