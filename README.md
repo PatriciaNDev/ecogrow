@@ -1,25 +1,24 @@
 # EcoGrow
 
-Bem-vindo(a) ao EcoGrow, um projeto fictício desenvolvido para fins de portfólio pessoal. Este projeto tem como propósito demonstrar habilidades em desenvolvimento web frontend, práticas de design responsivo e boas práticas de codificação. Além disso, oferece uma visão do que poderia ser um backend para este tipo de aplicação.
+Welcome to EcoGrow, a fictional project developed for personal portfolio purposes. This project aims to demonstrate skills in frontend web development, responsive design practices and good coding practices. Furthermore, it offers a view of what a backend could be for this type of application.
 
-## 🌱Descrição do projeto:
+## 🌱Project description:
 
-O EcoGrow foi concebido como uma plataforma fictícia para entusiastas de jardinagem e iniciantes em busca de uma experiência única de cultivar suas próprias ervas, flores comestíveis e microgreens em casa. O projeto apresenta uma interface intuitiva e amigável, oferecendo informações detalhadas sobre os produtos e incentivando os usuários a iniciar sua jornada na jardinagem.
+EcoGrow was designed as a fictional platform for gardening enthusiasts and beginners looking for a unique experience of growing their own herbs, edible flowers and microgreens at home. The project features an intuitive and user-friendly interface, offering detailed information about products and encouraging users to start their gardening journey.
 
-## 🌱Tecnologias utilizadas:
+## 🌱Technologies used:
 
-- **HTML5/CSS3:** Utilizados para estruturar e estilizar as páginas web, garantindo uma apresentação visual atraente e uma experiência de usuário agradável.
-- **JavaScript:** Adiciona interatividade às páginas, como abrir modais, manipular dados e fazer requisições para simular uma interação com um backend.
+- **HTML5/CSS3:** Used to structure and style web pages, ensuring an attractive visual presentation and a pleasant user experience.
+- **JavaScript:** Adds interactivity to pages, such as opening modals, manipulating data and making requests to simulate an interaction with a backend.
 
-## 🌱Funcionalidades:
+## 🌱Functionalities:
 
-- **Apresentação de Produtos:** O EcoGrow apresenta uma seleção de kits de horta urbana e produtos relacionados, cada um com uma descrição detalhada, imagens atraentes e botões "Saiba Mais" para fornecer informações adicionais.
+- **Product Presentation:** EcoGrow features a selection of urban garden kits, each with a detailed description, eye-catching images, and "Learn More" buttons to provide additional information.
+- **Details Modal:** When you click the "Learn More" button, a modal opens, revealing detailed information about the product, including title, description, images and specific features.
+- **Responsiveness:** The website is fully responsive, adapting to a variety of devices and screen sizes, ensuring a consistent user experience across desktops, tablets and smartphones.
+- **Backend Simulation:** Although EcoGrow does not have a real backend implemented, a simulation of data submission is done when filling out and submitting the contact form. The data is sent to a local JSON file, demonstrating the intention for future implementation of a backend.
 
-- **Modal de Detalhes**: Ao clicar no botão "Saiba Mais", um modal se abre, revelando informações detalhadas sobre o produto, incluindo título, descrição, imagens e características específicas.
-- **Responsividade**: O site é totalmente responsivo, adaptando-se a uma variedade de dispositivos e tamanhos de tela, garantindo uma experiência de usuário consistente em desktops, tablets e smartphones.
-- **Simulação de Backend**: Embora o EcoGrow não tenha um backend real implementado, uma simulação de envio de dados é feita ao preencher e enviar o formulário de contato. Os dados são enviados para um arquivo JSON local, demonstrando a intenção de futura implementação de um backend.
-
-## 🌱Demonstração visual:
+## 🌱Visual demonstration:
 
 **Desktop:**
 
@@ -29,25 +28,25 @@ O EcoGrow foi concebido como uma plataforma fictícia para entusiastas de jardin
 
 ![Captura de Tela do Projeto](/ecogrowMobile.gif)
 
-## 🌱Acesso ao projeto:
+## 🌱Project access:
 
-Link de acesso(url)
+Link (url)
 
-## 🌱Como executar projeto:
+## 🌱How to execute the project:
 
-1. Clone este repositório em seu ambiente de desenvolvimento local: `git clone https://github.com/PatriciaNDev/ecogrow.git`. Ou faça download dos arquivos.
-2. Abra o arquivo `index.html` no seu navegador.
-3. Explore as diferentes páginas e funcionalidades do EcoGrow.
+1. Clone this repository to your local development environment: `git clone https://github.com/PatriciaNDev/ecogrow.git`. Or download the files.
+2. Execute the file `index.html` in your browser.
+3. Explore the different pages and features of EcoGrow.
 
-## 🌱Melhorias futuras:
+## 🌱Future improvements:
 
-Embora o projeto EcoGrow já demonstre várias habilidades técnicas e conceituais, existem áreas para futuras melhorias e expansões, incluindo:
+While the EcoGrow project already demonstrates several technical and conceptual skills, there are areas for future improvements and expansions, including:
 
-- Implementação de um backend real, permitindo a interação com um banco de dados para armazenar e recuperar dados de produtos, usuários, etc.
-- Aprimoramento do design e da experiência do usuário para tornar o site ainda mais intuitivo e envolvente.
+- Implementation of a real backend, allowing interaction with a database to store and retrieve data about products, users, etc.
+- Improved design and user experience to make the website even more intuitive and engaging.
 
-## 🌱Contato:
+## 🌱Contact:
 
-Se tiver alguma dúvida, sugestão ou apenas quiser dizer olá, entre em contato através do email patricia.ns.dev@gmail.com.
+If you have any questions, suggestions or just want to say hello, please contact me via email patricia.ns.dev@gmail.com.
 
-🌱 Obrigada por explorar o EcoGrow! 🌱
+🌱 Thanks for exploring EcoGrow! 🌱
