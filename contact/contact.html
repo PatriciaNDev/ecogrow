@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=º, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/contact.css">
     <title>EcoGrow</title>
 </head>
@@ -14,10 +14,9 @@
                 <img src="/assets/icons/menu.svg" alt="Menu" id="menu">
                 <nav class="header-burger-menu_nav">
                     <ul>
+                        <li><a href="/index.html">Home</a></li>
                         <li><hr class="divider"></li>
                         <li><a href="/products/products.html">Produtos</a></li>
-                        <li><hr class="divider"></li>
-                        <li><a href="/contact/contact.html">Contato</a></li>
                         <li><hr class="divider"></li>
                     </ul>
                 </nav>
@@ -55,12 +54,12 @@
                 <p>Preencha o formulário abaixo e envie-nos suas perguntas, sugestões ou comentários.</p>
             </div>
             <div>
-                <form class="contact-form">
+                <form class="contact-form" id="form">
                     <input type="text" name="form-name" id="form-name" placeholder="Nome:">
                     <input type="email" name="form-email" id="form-email" placeholder="Email:">
                     <label for="form-message">Mensagem:</label>
                     <textarea rows="6" maxlength="500" id="form-message"></textarea>
-                    <button class="btn">Enviar</button>
+                    <button class="btn" type="submit">Enviar</button>
                 </form>
             </div>
         </section>
@@ -75,5 +74,6 @@
     </footer>
 
     <script src="/js/header.js"></script>
+    <script src="/js/contact.js"></script>
 </body>
 </html>
