@@ -30,7 +30,7 @@ EcoGrow was designed as a fictional platform for gardening enthusiasts and begin
 
 ## 🌱Project access:
 
-Link (url)
+[Link to access the EcoGrow page](https://ecogrow-mu.vercel.app/)
 
 ## 🌱How to execute the project:
 
@@ -47,6 +47,6 @@ While the EcoGrow project already demonstrates several technical and conceptual 
 
 ## 🌱Contact:
 
-If you have any questions, suggestions or just want to say hello, please contact me via email patricia.ns.dev@gmail.com.
+If you have any questions, suggestions or just want to say hello, please contact me via email.
 
 🌱 Thanks for exploring EcoGrow! 🌱
