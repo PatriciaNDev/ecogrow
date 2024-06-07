@@ -46,6 +46,7 @@
 .introduction p {
     font-family: var(--secondary-font);
     font-size: 1rem;
+    text-align: center;
     color: var(--gray-color);
 }
 
